@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`coffeeClient should get all coffee types 1`] = `
+Array [
+  Object {
+    "country": "FI",
+    "description": "This coffee bean with low caffeine and a smoother taste is aromatic and delicious. 80% of the coffee in the world is produced from these types of beans.",
+    "rating": 4,
+    "type": "arabica",
+  },
+  Object {
+    "country": "FI",
+    "description": "This type of coffee, which contains 2.5% more caffeine than other types, has a pretty strong taste.",
+    "rating": 3.2,
+    "type": "robusta",
+  },
+  Object {
+    "country": "SE",
+    "description": "Excelsa grows mostly in Southeast Asia and accounts for a mere 7% of the world's coffee circulation. It is largely used in blends in order to give the coffee an extra boost of flavor and complexity, better affecting the middle and back palate.",
+    "rating": 1.9,
+    "type": "excelsa",
+  },
+  Object {
+    "country": "SP",
+    "description": "Liberica is a low yield type of coffee compared to Arabica and Robusta.",
+    "rating": 1.8,
+    "type": "liberica",
+  },
+]
+`;
+
+exports[`coffeeClient should get coffee types by country 1`] = `
+Object {
+  "FI": Array [
+    Object {
+      "country": "FI",
+      "description": "This coffee bean with low caffeine and a smoother taste is aromatic and delicious. 80% of the coffee in the world is produced from these types of beans.",
+      "rating": 4,
+      "type": "arabica",
+    },
+    Object {
+      "country": "FI",
+      "description": "This type of coffee, which contains 2.5% more caffeine than other types, has a pretty strong taste.",
+      "rating": 3.2,
+      "type": "robusta",
+    },
+  ],
+  "SE": Array [
+    Object {
+      "country": "SE",
+      "description": "Excelsa grows mostly in Southeast Asia and accounts for a mere 7% of the world's coffee circulation. It is largely used in blends in order to give the coffee an extra boost of flavor and complexity, better affecting the middle and back palate.",
+      "rating": 1.9,
+      "type": "excelsa",
+    },
+  ],
+  "SP": Array [
+    Object {
+      "country": "SP",
+      "description": "Liberica is a low yield type of coffee compared to Arabica and Robusta.",
+      "rating": 1.8,
+      "type": "liberica",
+    },
+  ],
+}
+`;
+
+exports[`coffeeClient should get coffee types filtered by country 1`] = `
+Array [
+  Object {
+    "country": "FI",
+    "description": "This coffee bean with low caffeine and a smoother taste is aromatic and delicious. 80% of the coffee in the world is produced from these types of beans.",
+    "rating": 4,
+    "type": "arabica",
+  },
+  Object {
+    "country": "FI",
+    "description": "This type of coffee, which contains 2.5% more caffeine than other types, has a pretty strong taste.",
+    "rating": 3.2,
+    "type": "robusta",
+  },
+]
+`;
+
+exports[`coffeeClient should get coffee types sorted by rating 1`] = `
+Array [
+  Object {
+    "country": "FI",
+    "description": "This coffee bean with low caffeine and a smoother taste is aromatic and delicious. 80% of the coffee in the world is produced from these types of beans.",
+    "rating": 4,
+    "type": "arabica",
+  },
+  Object {
+    "country": "FI",
+    "description": "This type of coffee, which contains 2.5% more caffeine than other types, has a pretty strong taste.",
+    "rating": 3.2,
+    "type": "robusta",
+  },
+  Object {
+    "country": "SE",
+    "description": "Excelsa grows mostly in Southeast Asia and accounts for a mere 7% of the world's coffee circulation. It is largely used in blends in order to give the coffee an extra boost of flavor and complexity, better affecting the middle and back palate.",
+    "rating": 1.9,
+    "type": "excelsa",
+  },
+  Object {
+    "country": "SP",
+    "description": "Liberica is a low yield type of coffee compared to Arabica and Robusta.",
+    "rating": 1.8,
+    "type": "liberica",
+  },
+]
+`;
